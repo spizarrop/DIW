@@ -52,7 +52,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   background: #d9f5d2;
-  height: 1600px;
+  height: 1700px;
 }
 
 /* Contenido principal */
@@ -64,7 +64,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   background: #e6f0ff;
-  height: 1600px;
+  height: 1700px;
 }
 
 /* Secciones internas */
@@ -121,4 +121,18 @@ img {
   height: auto;
   margin: 10px auto;
   border: 2px solid #0077b6;
+}
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid #0077b6;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
 }
