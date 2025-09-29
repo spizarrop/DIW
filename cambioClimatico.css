@@ -1,7 +1,7 @@
 /* Cuerpo de la página */
 body {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   font: 16px Arial, sans-serif;
   background: #f4faff;
   color: #222;
@@ -39,12 +39,13 @@ body {
 /* Contenedor de sidebar + principal */
 .contenedor {
   width: 1200px;
+  overflow: hidden;
 }
 
 /* Sidebar lateral */
 .sidebar {
   float: left;
-  width: 200px;
+  width: 202px;
   border: 2px solid #4caf50;
   margin: 10px 10px 10px 0;
   padding: 15px;
@@ -56,7 +57,7 @@ body {
 /* Contenido principal */
 .principal {
   float: left;
-  width: 920px; /* cálculo: 1200 - sidebar(200+bordes+padding+marginRight) */
+  width: 920px;
   border: 2px solid #219ebc;
   margin: 10px 0;
   padding: 15px;
