@@ -50,7 +50,7 @@ body {
   float: left;
   width: 202px;
   border: 2px solid #4caf50;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0; /* Arriba | Derecha | Abajo | Izquierda */
   padding: 15px;
   border-radius: 10px;
   background: #d9f5d2;
@@ -71,7 +71,7 @@ body {
   float: left;
   width: 920px;
   border: 2px solid #219ebc;
-  margin: 10px 0;
+  margin: 10px 0; /* Vertical | Horizontal */
   padding: 15px;
   border-radius: 10px;
   background: #e6f0ff;
