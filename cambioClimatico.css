@@ -38,12 +38,14 @@ body {
 }
 
 /* Contenedor de sidebar + principal */
+/* Tamaño total: 1200 = 246(sidebar) + 954(principal) */
 .contenedor {
   width: 1200px;
   overflow: hidden;
 }
 
 /* Sidebar lateral */
+/* Tamaño sidebar: 202(ancho) + 4(2+2 bordes) + 10(margen derecho) + 30(15+15 padding) = 246 */
 .sidebar {
   float: left;
   width: 202px;
@@ -55,7 +57,12 @@ body {
   height: 1700px;
 }
 
+.sidebar, p{
+  text-indent: 20px;
+}
+
 /* Contenido principal */
+/* Tamaño principal: 920(ancho) + 4(2+2 bordes) + 30(15+15 padding) = 954 */
 .principal {
   float: left;
   width: 920px;
@@ -129,7 +136,7 @@ table {
 }
 
 table, th, td {
-  border: 2px solid #0077b6;
+  border: 2px solid #9178e3;
 }
 
 th, td {
