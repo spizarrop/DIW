@@ -57,8 +57,12 @@ body {
   height: 1700px;
 }
 
-.sidebar, p{
+.sidebar p{
   text-indent: 20px;
+}
+
+.sidebar h3{
+  text-decoration: underline;
 }
 
 /* Contenido principal */
@@ -72,6 +76,10 @@ body {
   border-radius: 10px;
   background: #e6f0ff;
   height: 1700px;
+}
+
+.principal h2{
+  text-decoration: underline;
 }
 
 /* Secciones internas */
